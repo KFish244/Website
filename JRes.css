@@ -19,20 +19,26 @@
 	padding-top: 100px;
 }
 
+table{
+    width: 100%;
+    border-bottom: 2px solid black;
+    /*this is the size of the small text's baseline over part  (≈25px*3/4)*/
+    line-height: 19.5px; 
+}
+table td {
+    vertical-align: baseline;
+}
+.left{
+    font-family: Arial;
+    font-size: 15px;
+    float: left;
 
-.Left-Address {
-	position: fixed;
-	height: 125px;
-	width: 615px;
-	text-align: left;
-	
+}
+.right{
+    font-size: 15px;
+    float: right;
 }
 
-.Right-Address {
-	
-	text-align: Right;
-	
-}
 
 <<<<<<< HEAD
 .Subjects ul li{
