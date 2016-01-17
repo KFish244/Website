@@ -34,6 +34,7 @@
 	
 }
 
+<<<<<<< HEAD
 .Subjects ul li{
 	color: blue;
 	
@@ -43,8 +44,31 @@
 	
 	color:red;
 	text-indent: 50px;
+=======
+.Subjects ul{
+	color: blue;
+	position: inline;
 	
+}
+
+.Subjects ul li{
+	color: blue;
+	position: inline;
+}
+
+.Subjects ul li ul li{
 	
+	color:black;
+	text-indent: 100px;
+	position: inline;
+
+>>>>>>> a1cc42246e5960454ea7df6196d11ea68c659dd2
+	
+}
+
+.left {
+	
+	position: fixed;
 	
 }
 
