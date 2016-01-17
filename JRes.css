@@ -1,0 +1,62 @@
+*{
+	font-family: Verdana;
+	background-color: grey;
+}
+
+
+.Title{
+	text-align: center;
+	
+	font-size: 250%;
+	font-weight: bold;
+}
+
+
+.Left-Address {
+	position: fixed;
+	height: 125px;
+	width: 615px;
+	text-align: left;
+	
+}
+
+.Right-Address {
+	
+	text-align: Right;
+	
+}
+
+.Subjects ul li{
+color: blue;
+	
+}
+
+.Subjects ul li ul{
+	
+	color:red;
+	text-indent: 100px;
+	
+	
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+a:link{
+
+	text-decoration:underline;
+	color:black;
+}
+
+a:hover{
+	text-decoration:none;
+	color:black;
+}
+
+a:visited{
+	color:black;
+}
