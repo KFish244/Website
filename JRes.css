@@ -26,17 +26,29 @@
 	
 }
 
-.Subjects ul li{
-color: blue;
+.Subjects ul{
+	color: blue;
+	position: inline;
 	
 }
 
-.Subjects ul li ul{
+.Subjects ul li{
+	color: blue;
+	position: inline;
+}
+
+.Subjects ul li ul li{
 	
-	color:red;
+	color:black;
 	text-indent: 100px;
+	position: inline;
+
 	
+}
+
+.left {
 	
+	position: fixed;
 	
 }
 
